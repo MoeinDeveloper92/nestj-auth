@@ -3,7 +3,6 @@ import { PrismaService } from 'src/prisma/prisma.service';
 import { AuthDto } from './dto';
 import { ArgonService } from 'src/argon/argon.service';
 import { PrismaClientKnownRequestError } from '@prisma/client/runtime/library';
-import { NotFoundError } from 'rxjs';
 
 @Injectable()
 export class AuthService {
